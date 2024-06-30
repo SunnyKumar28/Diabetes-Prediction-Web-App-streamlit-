@@ -1,3 +1,6 @@
+
+
+
 Diabetes Prediction Web App
 This web application predicts the likelihood of diabetes based on several health metrics. It uses a Support Vector Classifier (SVC) machine learning model trained on a dataset with relevant features.
 
