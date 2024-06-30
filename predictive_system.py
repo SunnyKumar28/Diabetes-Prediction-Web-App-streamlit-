@@ -7,9 +7,9 @@ This is a temporary script file.
 
 import numpy as np
 import pickle
-
+#/home/sunny-gupta/Machine learning deployment/
 # loading the saved model
-loaded_model = pickle.load(open('/home/sunny-gupta/Machine learning deployment/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 
 input_data = (5,166,72,19,175,25.8,0.587,51)
