@@ -10,8 +10,9 @@ import numpy as np
 import pickle
 import streamlit as st
 
+#/home/sunny-gupta/Machine learning deployment/
 # loading the saved model
-loaded_model = pickle.load(open('/home/sunny-gupta/Machine learning deployment/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 #creating a function 
 def diabetes_prediction(input_data):
